@@ -1,39 +1,136 @@
 <!DOCTYPE html>
-<html>
-<body style="font-family: 'Courier New', Courier, monospace;">
-
-<h1 style="text-align: center;"> SFA-Robotics </h1>
-<h2 style="text-align: center;"> Odyssey Academy </h2>
-
-<h1> <a href="UnderWater-Odyssey.html"> Underwater Odyssey </a> </h1>
-
-
-<a href="README.md"> Read about our course. </a>
-<h3 style="border:3px solid rgb(0,100,0)"> Grading Period 1 </h3>
-<h4> Introduction to Robotics </h4>
-<h4> Careers in Robotics </h4>
-<h4> Foundations </h4>
-
-<h3 style="border:3px solid rgb(0,100,0)"> Grading Period 2 </h3>
-<h4> Engineering Design Process </h4>
-<h4> Lego MindStorms </h4>
-
-<h3 style="border:3px solid rgb(0,100,0)"> Grading Period 3 </h3>
-<h4> Lego MindStorms </h4>
-
-<h3 style="border:3px solid rgb(0,100,0)"> Grading Period 4 </h3>
-<h4> <a href="https://seaperch.org"> SeaPerch </a> </h4>
-    <img src="seaPerch.png" style="width: 400px;height: 100px;"> 
-
-<h3 style="border:3px solid rgb(0,100,0)"> Grading Period 5 </h3>
-<h4> <a href="https://seaperch.org"> SeaPerch </a> </h4>
-    <img src="seaperch-2-icon.svg" style="width: 100px;height: 100px;"> 
-<h4> Introduction to Arduino </h4>
-
-<h3 style="border:3px solid rgb(0,100,0)"> Grading Period 6 </h3>
-<h4> Arduino </h4>
-<h4> VEX Robotics </h4>
-
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SFA-Robotics | Odyssey Academy</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            text-align: center;
+            background-color: #004d40;
+            color: white;
+            padding: 1rem 0;
+        }
+        header h1, header h2 {
+            margin: 0;
+        }
+        nav {
+            background-color: #00796b;
+            padding: 0.5rem;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 1rem;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            padding: 2rem;
+        }
+        section {
+            margin-bottom: 2rem;
+            padding: 1rem;
+            border: 2px solid #004d40;
+            border-radius: 8px;
+        }
+        section h3 {
+            margin-top: 0;
+            color: #004d40;
+        }
+        a.course-link {
+            color: #00796b;
+            font-weight: bold;
+        }
+        footer {
+            text-align: center;
+            background-color: #004d40;
+            color: white;
+            padding: 1rem 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 1rem auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>SFA-Robotics</h1>
+        <h2>Odyssey Academy</h2>
+    </header>
+    <nav>
+        <a href="#grading-period-1">Grading Period 1</a>
+        <a href="#grading-period-2">Grading Period 2</a>
+        <a href="#grading-period-3">Grading Period 3</a>
+        <a href="#grading-period-4">Grading Period 4</a>
+        <a href="#grading-period-5">Grading Period 5</a>
+        <a href="#grading-period-6">Grading Period 6</a>
+    </nav>
+    <main>
+        <section id="intro">
+            <h3>Course Introduction</h3>
+            <p><a class="course-link" href="README.md">Read about our course.</a></p>
+        </section>
+        <section id="grading-period-1">
+            <h3>Grading Period 1</h3>
+            <ul>
+                <li>Introduction to Robotics</li>
+                <li>Careers in Robotics</li>
+                <li>Foundations</li>
+            </ul>
+        </section>
+        <section id="grading-period-2">
+            <h3>Grading Period 2</h3>
+            <ul>
+                <li>Engineering Design Process</li>
+                <li>Lego MindStorms</li>
+            </ul>
+        </section>
+        <section id="grading-period-3">
+            <h3>Grading Period 3</h3>
+            <ul>
+                <li>Lego MindStorms</li>
+            </ul>
+        </section>
+        <section id="grading-period-4">
+            <h3>Grading Period 4</h3>
+            <p><a class="course-link" href="https://seaperch.org">SeaPerch</a></p>
+            <img src="seaPerch.png" alt="SeaPerch">
+        </section>
+        <section id="grading-period-5">
+            <h3>Grading Period 5</h3>
+            <p><a class="course-link" href="https://seaperch.org">SeaPerch</a></p>
+            <img src="seaperch-2-icon.svg" alt="SeaPerch Icon">
+            <ul>
+                <li>Introduction to Arduino</li>
+            </ul>
+        </section>
+        <section id="grading-period-6">
+            <h3>Grading Period 6</h3>
+            <ul>
+                <li>Arduino</li>
+                <li>VEX Robotics</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 SFA-Robotics | Odyssey Academy</p>
+    </footer>
 </body>
-
 </html>
